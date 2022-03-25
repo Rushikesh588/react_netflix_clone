@@ -1,0 +1,45 @@
+.common {
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  background-color: black;
+}
+
+.common__show {
+  display: block;
+  opacity: 1;
+  padding: 70px 45px;
+}
+
+.common__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.common__content > div {
+  width: 95%;
+}
+
+.common__content > div > h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.common__content > div > h4 {
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.common__img {
+  width: 100%;
+  height: auto;
+}
+
+.common--fade {
+  border: 5px solid rgb(88, 87, 87);
+}
